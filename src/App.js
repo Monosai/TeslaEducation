@@ -9,6 +9,7 @@ function App() {
 <Route path='Register.js' element={<Register/>} />
 <Route path='Login.js' element={<Login/>} />
 </Routes>
+
     </div>
   );
 }

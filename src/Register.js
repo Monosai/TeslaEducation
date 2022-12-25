@@ -3,7 +3,7 @@ import './Register.css';
 import swal from 'sweetalert';
 
 function Register() {
-
+    
     function signup(e){
 
         swal("Good job!", "You create account", "success");

@@ -1,5 +1,6 @@
 import React from 'react'
 import Register from './Register';
+import swal from 'sweetalert';
 import './Login.css';
 function Login() {
   function loginFunc(){
@@ -13,12 +14,15 @@ console.log(data);
 
 if(user == null){
   console.log('wrong username');
+  swal ( "Loginda xato bor" ,  ":/" ,  "error" )
 }
 else if(username==data.username && pass==data.password){
 console.log('logged in');
+
 }
 else{
   console.log('wrong password');
+  swal ( "Parolda xato bor" ,  ":/" ,  "error" )
 }
   }
   return (
